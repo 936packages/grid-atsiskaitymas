@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+div {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.container {
+    margin: 1rem;
+    background-color: beige;
+    width: 85%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    gap: 10px;
+    grid-template-rows: repeat(11, 1fr);
+}
+
+.basic {
+    background-color: rgb(68, 115, 79);
+}
+
+.talk-bg {
+    background-color: rgb(147, 106, 18);
+}
+.break-bg {
+    background-color: rgb(19, 113, 195);
+}
+
+
+.left-0 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.left-1 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+.left-2 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+.left-3 {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+.left-4 {
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+}
+.left-5 {
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+}
+.left-6 {
+    grid-column: 1 / 2;
+    grid-row: 7 / 8;
+}
+.left-7 {
+    grid-column: 1 / 2;
+    grid-row: 8 / 9;
+}
+.left-8 {
+    grid-column: 1 / 2;
+    grid-row: 9 / 10;
+}
+.left-9 {
+    grid-column: 1 / 2;
+    grid-row: 10 / 11;
+}
+.left-10 {
+    grid-column: 1 / 2;
+    grid-row: 11 / 12;
+}
+
+
+.top-1 {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+}
+.top-2 {
+    grid-column: 4 / 6;
+    grid-row: 1 / 2;
+}
+.top-3 {
+    grid-column: 6 / 8;
+    grid-row: 1 / 2;
+}
+.top-4 {
+    grid-column: 8 / 10;
+    grid-row: 1 / 2;
+}
+.top-5 {
+    grid-column: 10 / 12;
+    grid-row: 1 / 2;
+}
+.top-6 {
+    grid-column: 12 / 14;
+    grid-row: 1 / 2;
+}
+.top-7 {
+    grid-column: 14 / 16;
+    grid-row: 1 / 2;
+}
+
+
+.break1 {
+    grid-column: 2 / 6;
+    grid-row: 5 / 6;
+}
+.break2 {
+    grid-column: 8 / 12;
+    grid-row: 3 / 4;
+}
+.break3 {
+    grid-column: 2 / 16;
+    grid-row: 8 / 9;
+}
+
+
+.talk1 {
+    grid-column: 2 / 6;
+    grid-row: 2 / 5;
+}
+
+.talk2-3 {
+    grid-column: 2 / 8;
+    grid-row: 6 / 8;
+}
+
+.talk4 {
+    grid-column: 6 / 8;
+    grid-row: 2 / 6;
+}
+.talk5 {
+    grid-column: 8 / 12;
+    grid-row: 2 / 3;
+}
+.talk6 {
+    grid-column: 8 / 12;
+    grid-row: 4 / 8;
+}
+.talk7 {
+    grid-column: 2 / 6;
+    grid-row: 9 / 12;
+}
+.talk8 {
+    grid-column: 6 / 12;
+    grid-row: 10 / 12;
+}
+.talk9 {
+    grid-column: 12 / 16;
+    grid-row: 2 / 8;
+}   
+.talk10 {
+    grid-column: 12 / 16;
+    grid-row: 9 / 12;
+}
